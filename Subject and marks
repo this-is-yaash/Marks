@@ -13,8 +13,8 @@ int main()
 	{
 	std::cout<<"Enter the mark of subject "<< i<<":";
 	std::cin>> marks;
-			tot+=marks;
-				per=tot/sub;
+		tot+=marks;
+			per=tot/sub;
 	}
 	
 	std::cout<<"The total marks is "<<tot<<endl;
