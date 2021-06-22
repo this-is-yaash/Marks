@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+	int sub, marks;
+	float tot=0, per;
+	
+	cout<<"Enter the number of subjects:";
+	cin>>sub;
+	
+	for(int i=1;i<=sub;++i)
+	{
+	cout<<"Enter the mark of subject "<< i<<":";
+	cin>> marks;
+			tot+=marks;
+				per=tot/6;
+	}
+	
+	cout<<"The total marks is "<<tot<<endl;
+	
+	cout<<"The Percentage of the total mark is "<<per;
+	return 0;
+}
